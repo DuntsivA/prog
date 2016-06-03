@@ -88,18 +88,17 @@ footer{
 	z-index: -1;
 }
 
-
-.socialicon:hover{
-	background-color: #CD2626;
-}
-
 .socialicon {
 	position: relative;
     height: 60px;
     width: 60px;
 	left: 40%;
+    transition-property: background-color, height, width;
+    transition-duration: 2s;
 }
 
-
-
-
+.socialicon:hover{
+	background-color: #CD2626;
+	height: 70px;
+    width: 70px;
+}
