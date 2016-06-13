@@ -301,6 +301,13 @@ hr.grey {
     width: 50px;
 }
 
+.map{
+	width: 100%;
+	height: 317px;
+	border: 0;
+	margin: 0;
+}
+
 /* Section, Footer & Misc ------------------------------------------ */
 .content{
 	padding-top: 50px;
