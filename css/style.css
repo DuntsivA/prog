@@ -102,8 +102,7 @@ body.color-1 div#top-nav #fixed-nav li.current a {
 	border-bottom: 3px solid #104E8B;
 }
 body.color-1 .bg-color{
-	background: transparent url(texture/black.png) repeat top left;
-	background:#104E8B url(texture/pattern.png) repeat top left;
+	background:#104E8B;
 }
 body.color-1 hr {
 	border-bottom: 1px solid #104E8B;
@@ -295,7 +294,7 @@ hr.grey {
     transition-property: background-color, height, width;
     transition-duration: 1s;
 }
-	.socialicon:hover{
+.socialicon:hover{
 	background-color: #104E8B;
 	height: 50px;
     width: 50px;
@@ -360,9 +359,9 @@ margin: 0px;
 	div#top-nav{
 		margin-top: 0px;
 		display: none;
-	background: #fff;
-	position: absolute;
-	top:50px;
+		background: #fff;
+		position: absolute;
+		top:50px;
 		z-index: 99999;
 		border-right: 1px solid #D6D6D6;
 		border-bottom: 1px solid #D6D6D6;
